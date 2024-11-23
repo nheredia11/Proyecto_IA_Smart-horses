@@ -1,57 +1,92 @@
-# Proyecto_IA_Smart-horses
+<div align="center">
 
-# Smart Horses Game
+# 🎮 Smart Horses
 
-Smart Horses es un juego de estrategia en el que dos jugadores controlan caballos en un tablero de ajedrez, con el objetivo de obtener la mayor cantidad de puntos.
+<img src="/api/placeholder/500/200" alt="Smart Horses Banner"/>
 
-## Reglas del Juego
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-2.0-green.svg)](https://www.pygame.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-- El juego se juega entre dos jugadores, uno controla el caballo blanco y el otro el caballo negro.
-- En el tablero hay 10 casillas que otorgan de 1 a 10 puntos al primer caballo que las alcance.
-- Además, hay 4 casillas marcadas con el símbolo 'x2' que permiten duplicar la puntuación de la casilla alcanzada.
-- Los símbolos 'x2' no son acumulables, es decir, solo se puede aplicar uno por caballo.
-- El juego termina cuando no quedan más casillas con puntos.
-- El jugador con la mayor cantidad de puntos al final del juego es declarado el ganador.
+*Un duelo de inteligencias artificiales en un tablero de ajedrez*
 
-## Niveles de Dificultad
+[Características](#✨-características) •
+[Instalación](#🚀-instalación) •
+[Uso](#💻-uso) •
+[Reglas](#📋-reglas) •
+[Resultados](#📊-resultados)
 
-El juego ofrece tres niveles de dificultad:
+</div>
 
-1. **Principiante**: El árbol minimax tiene una profundidad de búsqueda de 2.
-2. **Amateur**: El árbol minimax tiene una profundidad de búsqueda de 4.
-3. **Experto**: El árbol minimax tiene una profundidad de búsqueda de 6.
+---
 
-## Implementación de las IA's
+## 🧠 Sobre el Proyecto
 
-Para este proyecto, se deben crear dos agentes de Inteligencia Artificial (IA) con diferentes funciones de utilidad heurística:
+Smart Horses enfrenta a dos IAs en un juego de estrategia donde cada caballo busca maximizar sus puntos en un tablero de ajedrez. Usando el algoritmo Minimax con diferentes funciones heurísticas, cada IA debe demostrar su supremacía en la recolección de puntos.
 
-1. **IA1 (Maximizar puntos)**: Esta IA se enfocará en maximizar la cantidad de puntos que puede obtener. Considerará factores como la distancia a las casillas de puntos, la posibilidad de alcanzar casillas 'x2' y el control del centro del tablero.
+## ✨ Características
 
-2. **IA2 (Minimizar puntos del oponente)**: Esta IA se enfocará en minimizar los puntos que puede obtener el oponente. Considerará factores como el bloqueo de las casillas de puntos del oponente, la cercanía a las casillas 'x2' del oponente y el control de las casillas centrales.
+### 🎯 Mecánicas de Juego
+- 🎲 Tablero de ajedrez con posiciones aleatorias
+- 🔢 10 casillas con puntos (1-10)
+- ⭐ 4 multiplicadores x2
+- 🔄 Turnos alternados entre IAs
 
-## Enfrentamientos y Evaluación
+### 🎚️ Niveles de Dificultad
 
-Se deben realizar 10 enfrentamientos entre las dos IA's para cada combinación de niveles de dificultad, siempre iniciando la IA1. Los resultados se deben registrar en una tabla con el siguiente formato:
+| Nivel | Profundidad del Árbol |
+|-------|----------------------|
+| 🟢 Principiante | 2 |
+| 🟡 Amateur | 4 |
+| 🔴 Experto | 6 |
 
-IA2
-Principiante | Amateur | Experto
--------------|---------|--------
-IA1
-Principiante | [x, y, z] | 
-Amateur      |         |
-Experto      |         |
+## 🚀 Instalación
 
-Donde `x`, `y` y `z` representan las victorias de IA1, victorias de IA2 y empates, respectivamente.
+```bash
+# Clona este repositorio
+git clone https://github.com/[tu-usuario]/smart-horses
 
-Basado en los resultados obtenidos, se debe seleccionar la IA más efectiva para incluirla en el juego final.
+# Entra al directorio
+cd smart-horses
 
-## Entregables
+# Instala las dependencias
+pip install -r requirements.txt
+```
 
-1. **Código Fuente**: El código fuente completo del juego Smart Horses.
-2. **Informe Técnico**: Un informe que incluya:
-   - Definición y explicación detallada de las funciones de utilidad heurística de IA1 e IA2.
-   - La tabla con los resultados de los enfrentamientos entre las IA's.
-   - El análisis de los resultados y la selección de la IA más efectiva.
-3. **Video Demostrativo**: Un video que muestre 10 enfrentamientos entre las dos IA's.
+## 💻 Uso
 
-¡Que disfrutes desarrollando este interesante proyecto de Inteligencia Artificial!
+```bash
+python main.py
+```
+
+## 📋 Reglas
+
+<div align="center">
+
+| 📜 Regla | 📝 Descripción |
+|----------|---------------|
+| Movimiento | Según reglas del caballo de ajedrez |
+| Puntos | Primer caballo en alcanzar la casilla |
+| Multiplicadores | Aplican al siguiente punto obtenido |
+| Victoria | Mayor cantidad de puntos al finalizar |
+
+</div>
+
+
+## 🏆 Autores
+
+- Yhan Carlos Trujillo Castro (2026415)
+- Néstor David Heredia Gutierrez (2058558)
+
+## 🎓 Agradecimientos
+
+<div align="center">
+
+**Universidad del Valle**
+*Facultad de Ingeniería*
+*Escuela de Ingeniería de Sistemas y Computación*
+*Curso de Inteligencia Artificial*
+
+</div>
+
+---
