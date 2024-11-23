@@ -10,14 +10,6 @@
 
 *Un duelo de inteligencias artificiales en un tablero de ajedrez*
 
-[Características](#✨-características) •
-[Instalación](#🚀-instalación) •
-[Uso](#💻-uso) •
-[Reglas](#📋-reglas) •
-[Resultados](#📊-resultados)
-
-</div>
-
 ---
 
 ## 🧠 Sobre el Proyecto
