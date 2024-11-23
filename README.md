@@ -1,10 +1,4 @@
-# 🎮 Smart Horses
-
-<img src="/api/placeholder/500/200" alt="Smart Horses Banner"/>
-
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Pygame](https://img.shields.io/badge/Pygame-2.0-green.svg)](https://www.pygame.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+# 🐴 Smart Horses 🎮
 
 *Un duelo de inteligencias artificiales en un tablero de ajedrez*
 
