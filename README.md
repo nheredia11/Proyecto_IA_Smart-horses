@@ -62,13 +62,6 @@ python main.py
 - Yhan Carlos Trujillo Castro (2026415)
 - Néstor David Heredia Gutierrez (2058558)
 
-## 🎓 Agradecimientos
-
-**Universidad del Valle**
-*Facultad de Ingeniería*
-*Escuela de Ingeniería de Sistemas y Computación*
-*Curso de Inteligencia Artificial*
-
 </div>
 
 ---
