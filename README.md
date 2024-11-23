@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🎮 Smart Horses
 
 <img src="/api/placeholder/500/200" alt="Smart Horses Banner"/>
@@ -71,8 +69,6 @@ python main.py
 - Néstor David Heredia Gutierrez (2058558)
 
 ## 🎓 Agradecimientos
-
-<div align="center">
 
 **Universidad del Valle**
 *Facultad de Ingeniería*
