@@ -38,8 +38,8 @@ class SmartHorsesGame:
         
         # Cargar las imágenes de los caballos
         try:
-            self.white_horse_image = pygame.image.load('images/white_horse.png').convert_alpha()
-            self.black_horse_image = pygame.image.load('images/black_horse.png').convert_alpha()
+            self.white_horse_image = pygame.image.load('SmartHorses/images/white_horse.png').convert_alpha()
+            self.black_horse_image = pygame.image.load('SmartHorses/images/black_horse.png').convert_alpha()
             # Escalar imágenes al tamaño de la celda
             self.white_horse_image = pygame.transform.scale(self.white_horse_image, (CELL_SIZE, CELL_SIZE))
             self.black_horse_image = pygame.transform.scale(self.black_horse_image, (CELL_SIZE, CELL_SIZE))
@@ -390,5 +390,3 @@ class SmartHorsesGame:
         if best_move:
             self.make_move(current_horse, best_move[0], best_move[1])
             self.current_turn = not self.current_turn
-    
-
