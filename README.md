@@ -33,8 +33,6 @@ git clone https://github.com/[tu-usuario]/smart-horses
 # Entra al directorio
 cd smart-horses
 
-# Instala las dependencias
-pip install -r requirements.txt
 ```
 
 ## 💻 Uso
